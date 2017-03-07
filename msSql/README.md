@@ -18,6 +18,9 @@
 3) cd(change directory) to {run} and create connect.js
 4) run connect.js
    > node connect.js
+5) Check out the UI..
+http://localhost:5000/
+
 ```
 
 ### connect.js
