@@ -75,5 +75,17 @@ var server = app.listen(5000, function () {
 
 ```
 
+.mssql.json
+```shell
+{
+    "user": "cccapp",
+    "password": "cccapp",
+    "server": "devsql001.autocapitalcanada.local",
+    "database": "cccdev01"
+}
+
+```
+* Be careful, there might be hidden characters in the file
+
 ### Reference
 [NPM official Site](https://www.npmjs.com/package/mssql)
