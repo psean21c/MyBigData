@@ -50,7 +50,7 @@ app.get('/', function (req, res) {
         var request = new sql.Request();
 
         // query to the database and get the records
-        request.query('select * from Student', function (err, recordset) {
+        request.query('select * from phx_authority', function (err, recordset) {
 
             if (err) console.log(err)
 
@@ -64,6 +64,14 @@ app.get('/', function (req, res) {
 var server = app.listen(5000, function () {
     console.log('Server is running..');
 });
+
+```
+
+### CLI
+```
+1) create .mssql.json
+2) run the command
+>echo "select * from phx_authority" | mssql
 
 ```
 
