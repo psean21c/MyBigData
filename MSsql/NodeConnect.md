@@ -2,7 +2,7 @@
 ### server.js
 
 
-```
+```javascript
 // Directly retreive the data records
 var express = require('express');
 var app = express();
