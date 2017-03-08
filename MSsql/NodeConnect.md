@@ -13,7 +13,7 @@ var server = app.listen(5000, function () {
 
     var config = {
         user: 'user-ccc.app',
-        password: '!O5H55wDt1M2OucJt@G7',
+        password: '********',
         server: '10.94.128.113',
         port: '1439',
         database: 'EDW'
