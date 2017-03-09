@@ -1,11 +1,5 @@
 
-### create an app
-https://jhipster.github.io/creating-an-app/
-
-### docker
-https://jhipster.github.io/installation/
-
-### Creating a MicroService Using JHipster
+### Main steps to create a MicroService Using JHipster
 ```
 Steps
 1. Create a micro service for our backend
@@ -14,4 +8,10 @@ Steps
 4. Run the micro service and gateway
 
 ```
-[Youtube clip](https://www.youtube.com/watch?v=NdcnpD-GpZ4)
+
+### Official JHipster site for tutorial
+[Create an app](https://jhipster.github.io/creating-an-app/)
+
+[Installation with docker](https://jhipster.github.io/installation/)
+
+[JHipster Demo in Youtube](https://www.youtube.com/watch?v=NdcnpD-GpZ4)
