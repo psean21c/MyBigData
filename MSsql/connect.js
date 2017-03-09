@@ -1,9 +1,5 @@
-
-### server.js
-
-
-```javascript
 // Directly retreive the data records
+
 var express = require('express');
 var app = express();
 
@@ -20,21 +16,16 @@ var server = app.listen(5000, function () {
     };
 
     sql.connect(config, function (err) {
-
         if (err) console.log(err);
 
         var request = new sql.Request();
 
         request.query('select * from CAF.Customer', function (err, recordset) {
-
             if (err) console.log(err)
-
             console.log(recordset);
-
         });
+        
     });
 
 });
 
-
-```
