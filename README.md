@@ -18,3 +18,7 @@
 http://javainuse.com/spring/SpringBoot_HelloWorld_gradle
 
 https://www.youtube.com/watch?v=A4oVMLJPvdo
+
+2) Remote debugging + Spring boot
+
+http://jdpgrailsdev.github.io/blog/2014/07/15/spring_boot_remote_debug.html
