@@ -11,3 +11,10 @@
 [Deploy to Cloud Foundry from STS](https://spring.io/guides/gs/sts-cloud-foundry-deployment/)
 
 
+### Assignment
+
+1) Eclipse Spring Boot + Gradle
+
+http://javainuse.com/spring/SpringBoot_HelloWorld_gradle
+
+https://www.youtube.com/watch?v=A4oVMLJPvdo
