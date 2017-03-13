@@ -31,9 +31,9 @@ https://jhipster.github.io/microservices-architecture/
 
 4) Spring Boot + Repository
 
+[Spring JPA Repository](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.core-concepts)
 https://www.youtube.com/watch?v=4bPT-0f-am4
 
-https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.core-concepts
 
 udemy course for angularJS:  AngularJS JumpStart with Dan Wahlin
 
