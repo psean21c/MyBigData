@@ -36,3 +36,6 @@ https://www.youtube.com/watch?v=4bPT-0f-am4
 https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.core-concepts
 
 udemy course for angularJS:  AngularJS JumpStart with Dan Wahlin
+
+mySQL + Spring
+https://spring.io/guides/gs/accessing-data-mysql/
