@@ -37,3 +37,15 @@ $flush privileges;
 $exit;
 ```
 
+-----------------------------
+[Check port for mysql]
+```
+/usr/local/mysql/support-files/my-default.cnf
+
+mysql> show global variables like 'port';
+```
+
+[Driver for SQL Developer]
+
+Preferences > Database > 3 Party JDBC Drivers
+
