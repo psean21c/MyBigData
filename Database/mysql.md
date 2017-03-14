@@ -49,3 +49,5 @@ mysql> show global variables like 'port';
 
 Preferences > Database > 3 Party JDBC Drivers
 
+### Reference
+[MySQL official](https://dev.mysql.com/doc/mysql-getting-started/en/)
