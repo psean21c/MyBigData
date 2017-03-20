@@ -23,12 +23,12 @@ http://javainuse.com/spring/SpringBoot_HelloWorld_gradle
 
 3) Spring Boot + Repository
 
-[Spring JPA Repository](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.core-concepts)
+[Spring Official : JPA Repository](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.core-concepts)
 
 [Youtube Watch](https://www.youtube.com/watch?v=4bPT-0f-am4)
 
 
 4) Spring + MySQL
 
-[mySQL + Spring](https://spring.io/guides/gs/accessing-data-mysql/)
+[Spring Sample : Access to mySQL](https://spring.io/guides/gs/accessing-data-mysql/)
 
