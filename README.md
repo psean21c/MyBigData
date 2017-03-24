@@ -35,3 +35,13 @@ Cave of programming for lambda in Java 8
 Debug basic
 ```
 [Youtube: 10 min x 7](https://www.youtube.com/watch?v=pYvYSOLPoPE&t=20s)
+
+
+```
+sample 
+```
+[Remote Debug sample](http://javapapers.com/core-java/java-remote-debug-with-eclipse/)
+
+[IBM sample + theory](http://www.ibm.com/developerworks/library/os-eclipse-javadebug/index.html)
+
+
