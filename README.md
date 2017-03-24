@@ -45,3 +45,4 @@ sample
 [IBM sample + theory](http://www.ibm.com/developerworks/library/os-eclipse-javadebug/index.html)
 
 
+[Remote debug tip](https://muhammadkhojaye.blogspot.ca/2010/02/java-remote-debugging.html)
