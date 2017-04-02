@@ -16,6 +16,7 @@
 https://jhipster.github.io/microservices-architecture/
 
 2) Angular JS
+
 udemy course for angularJS:  AngularJS JumpStart with Dan Wahlin
 
 
