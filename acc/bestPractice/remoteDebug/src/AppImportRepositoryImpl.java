@@ -51,9 +51,6 @@ public class AppImportRepositoryImpl implements AppImportRepository {
     }, holder);
 
     if (rows == 1) {
-//      BigDecimal bigDec = (BigDecimal)holder.getKey();
-//      System.out.println("\n\n==================" + holder.getKey() + "\n\n" + bigDec);
-//      Long idx = new Long(bigDec.toString().trim());
       Long idx =(Long) holder.getKey();
       app.setId(idx);
       return app;
