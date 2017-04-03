@@ -19,7 +19,7 @@ IDENTITY : SQL Server
 
 ```
 
-### Eclipse
+### Eclipse 
 ```
 1) Create Gradle project in Eclipse
   serve-jdbc-mysql
@@ -34,11 +34,33 @@ IDENTITY : SQL Server
    
 4) Copy source java file under the folder - src/main/java/com/ccc
 
-5) Run as [Spring Boot App]
+5) Run as [Spring Boot App] & Check the result
 Spring App started !!
 ...
 1 : DT0001
 ...
 Finished . Spring Context will be closed
+
+```
+
+### Build and Run the App
+
+```
+1) Go to the project folder
+ $ cd {serve-jdbc-mysql}
+ 
+2) build
+ $ gradle clean build
+  >> the folder [build] will be created 
+3) Go to the libs
+$cd build/libs
+
+4) run the jar & Check the result
+$ java -jar serve-jdbc-mysql-0.0.1-SNAPSHOT.jar
+ 
+```
+
+### Remote Debug
+```
 
 ```
