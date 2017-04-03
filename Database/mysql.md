@@ -14,6 +14,12 @@ sudo /usr/local/mysql/support-files/mysql.server restart
 sudo launchctl load -F /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
 sudo launchctl unload -F /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
 ```
+[Reset the password for root]
+```
+$ mysql -u root -p
+Enter password:
+```
+
 
 [Reset the password for root]
 ```
