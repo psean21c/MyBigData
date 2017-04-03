@@ -31,5 +31,14 @@ IDENTITY : SQL Server
 3) Refresh Gradle Project
  >> At this point, you should be able to see all dependending jar files under the library folder 
    [Project and External Dependencies]
-4)
+   
+4) Copy source java file under the folder - src/main/java/com/ccc
+
+5) Run as [Spring Boot App]
+Spring App started !!
+...
+1 : DT0001
+...
+Finished . Spring Context will be closed
+
 ```
