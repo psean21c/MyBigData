@@ -1,0 +1,28 @@
+
+repositories {
+    maven {
+         url 'http://devjenkins001.autocapitalcanada.local:10000/repository/phoenix-nexus'
+         credentials {
+             username 'gradle'
+             password 'capco1'
+         }
+     }
+}
+
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
+
+apply plugin: 'nebula.maven-resolved-dependencies'
+apply plugin: 'nebula.javadoc-jar'
+apply plugin: 'nebula.source-jar'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "http://devjenkins001.autocapitalcanada.local:10000/repository/phoenix-nexus") {
+                  authentication(userName: "gradle", password: "capco1")
+            }
+        }
+    }
+}
+

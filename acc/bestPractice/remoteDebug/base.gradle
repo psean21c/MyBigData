@@ -1,0 +1,67 @@
+group 'com.ccc'
+version '1.0.0-SNAPSHOT'
+
+repositories {
+    jcenter()
+    mavenLocal()
+    mavenCentral()
+    maven {
+         url 'http://devjenkins001.autocapitalcanada.local:10000/repository/phoenix-nexus'
+         credentials {
+             username 'gradle'
+             password 'capco1'
+         }
+     }
+    maven {
+        url 'http://repo.spring.io/plugins-release'
+    }
+    maven {
+        url 'https://repo.spring.io/libs-milestone'
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
+
+apply plugin: 'io.spring.dependency-management'
+
+apply plugin: 'eclipse'
+apply plugin: 'propdeps'
+apply plugin: 'propdeps-maven'
+apply plugin: 'propdeps-eclipse'
+apply plugin: 'nebula.maven-resolved-dependencies'
+apply plugin: 'nebula.javadoc-jar'
+apply plugin: 'nebula.source-jar'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencyManagement {
+    imports {
+       mavenBom "org.springframework.boot:spring-boot-starter-parent:${spring_boot_version}"
+       mavenBom 'org.springframework.cloud:spring-cloud-dependencies:' + spring_cloud_version
+    }
+    dependencies {
+
+    }
+}
+
+
+compileJava.dependsOn(processResources)
+
+//eclipse.project {
+//    name = "phx-${rootProject.name}"
+//}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.2.1'
+}
+
+
+configurations.all {
+    resolutionStrategy {
+        cacheDynamicVersionsFor 0, "seconds"
+        cacheChangingModulesFor 0, "seconds"
+    }
+}
