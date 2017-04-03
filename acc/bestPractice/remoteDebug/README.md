@@ -62,5 +62,17 @@ $ java -jar serve-jdbc-mysql-0.0.1-SNAPSHOT.jar
 
 ### Remote Debug
 ```
+1) run
+$ java -jar -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=y build/libs/serve-jdbc-mysql-0.0.1-SNAPSHOT.jar
 
+2) Attach source file in Eclipse
+ - Right click on the project
+ - Debug As > Debug Configurations > 
+ - Go to [Remote Java Application] and right click [New]
+ - Check Port # is the same as 8000 above, 
+ - Apply > Debug
+ 
+3) You should be able to debug / trace source code..
+ 
+ 
 ```
