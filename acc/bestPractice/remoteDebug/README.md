@@ -7,6 +7,16 @@
 sudo /usr/local/mysql/support-files/mysql.server start
 sudo /usr/local/mysql/support-files/mysql.server stop
 
+2) Create Table
+Create table AppsForImport
+(
+ID BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+DT_ApplicationNumber varchar(50)
+)
+/
+** AUTO_INCREMENT : My SQL
+IDENTITY : SQL Server
+
 ```
 
 ### Eclipse
