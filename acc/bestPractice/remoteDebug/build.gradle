@@ -216,6 +216,8 @@ dependencies {
     }
     compile "io.springfox:springfox-bean-validators:${springfox_version}"
     compile "com.h2database:h2"
+    compile "mysql:mysql-connector-java:5.1.23"
+        
     compile "org.mapstruct:mapstruct-jdk8:${mapstruct_version}"
     testCompile "com.jayway.awaitility:awaitility:${awaility_version}"
     testCompile "com.jayway.jsonpath:json-path"
