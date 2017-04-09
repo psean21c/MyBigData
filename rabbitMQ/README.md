@@ -9,6 +9,9 @@ conf: /usr/local/etc/rabbitmq
 
 ```
 
+* start : /usr/local/Cellar/rabbitmq/3.6.9/sbin/rabbitmq-server
+
+
 ### Reference
 [RabbitMQ Official Tutorial](https://www.rabbitmq.com/tutorials/amqp-concepts.html)
 
