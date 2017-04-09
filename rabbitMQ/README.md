@@ -1,4 +1,13 @@
 
+### Setup
+* Using brew in Mac
+
+```
+bin file: /usr/local/Cellar/rabbitmq/3.6.9/sbin/rabbitmq-server
+log : /usr/local/var/log/rabbitmq
+conf: /usr/local/etc/rabbitmq
+
+```
 
 ### Reference
 [RabbitMQ Official Tutorial](https://www.rabbitmq.com/tutorials/amqp-concepts.html)
