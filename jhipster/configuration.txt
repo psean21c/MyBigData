@@ -30,6 +30,14 @@ CacheConfiguration
 .. failed and terminated ....
 
 =========================================================================================================
+SpringApplication app = new SpringApplication(Hipster2App.class);
+
+app.listeners.elementData[]
+
+org.springframework.boot.devtools.restart.RestartApplicationListener@5fbdfdcf, org.springframework.cloud.bootstrap.BootstrapApplicationListener@4efc180e, org.springframework.cloud.bootstrap.LoggingSystemShutdownListener@bd4dc25, org.springframework.boot.context.config.ConfigFileApplicationListener@25084a1e, org.springframework.boot.context.config.AnsiOutputApplicationListener@156b88f5, org.springframework.boot.logging.LoggingApplicationListener@3bf9ce3e, org.springframework.boot.autoconfigure.BackgroundPreinitializer@16610890, org.springframework.boot.logging.ClasspathLoggingApplicationListener@71def8f8, org.springframework.boot.context.config.DelegatingApplicationListener@383bfa16, org.springframework.cloud.context.restart.RestartListener@4d465b11, org.springframework.boot.builder.ParentContextCloserApplicationListener@53fdffa1, org.springframework.boot.ClearCachesApplicationListener@5562c41e, org.springframework.boot.context.FileEncodingApplicationListener@32ee6fee, org.springframework.boot.liquibase.LiquibaseServiceLocatorApplicationListener@4d0f2471]
+
+
+=========================================================================================================
 
 
         ██╗ ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
