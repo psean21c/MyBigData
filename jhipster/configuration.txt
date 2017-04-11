@@ -19,7 +19,17 @@ src/main/java
 drwxr-xr-x   4 toraccmac001  staff   136  6 Apr 21:34 audit
 -rw-r--r--   1 toraccmac001  staff    78  6 Apr 21:34 package-info.java
 
-=====================
+
+=========================================================================================================
+Order of loading
+---------------------
+AsyncConfiguration
+MetricsConfiguration
+DatabaseConfiguration
+CacheConfiguration
+.. failed and terminated ....
+
+=========================================================================================================
 
 
         ██╗ ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
