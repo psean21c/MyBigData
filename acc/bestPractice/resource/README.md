@@ -27,3 +27,11 @@ select * from phx_document_metadata_document
 where applicant_id = '168' and application_id = '42'
 
 * How to register service in JHipster ??
+```
+#aplication.yml file : enabled == true
+eureka:
+    instance:
+        prefer-ip-address: true
+    client:
+        enabled: true
+```
