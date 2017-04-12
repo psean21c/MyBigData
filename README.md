@@ -11,9 +11,10 @@
 
 ### Assignment
 
-| Subject      | Skills         | Priority | 
+| Subject      | Skills         | repository | 
 | ------------- |:-------------:|:-------------: 
-| Docker      | docker-compose  | | 
+| Docker      | docker-compose  |  | 
+| Docker      | boot - docker  |  [Spring Boot with Docker](https://spring.io/guides/gs/spring-boot-docker/)| 
 | unit Test     |  mockito   |  | 
 | RabbitMQ      |       |  | 
 | Spring Boot | DTO    |  | 
