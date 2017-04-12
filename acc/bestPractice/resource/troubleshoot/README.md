@@ -3,9 +3,10 @@
 
 ```
 Table schema:
-id	bigint
-choice	varchar
-question_id	bigint
+create table phx_choice 
+(	id bigint identity not null, 
+	choice varchar(80) not null, 
+	question_id bigint not null)
 ```
 
 ### You will be having the problem below when running the command
