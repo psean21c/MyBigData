@@ -1,4 +1,13 @@
 
+### Need to create table schema for testing
+
+```
+Table schema:
+id	bigint
+choice	varchar
+question_id	bigint
+```
+
 ### You will be having the problem below when running the command
 ```
 $gradlew bootRun
