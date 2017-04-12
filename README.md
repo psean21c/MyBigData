@@ -11,27 +11,20 @@
 
 ### Assignment
 
-| Subject      | Skills         | repository | 
-| ------------- |:-------------:|:-------------: 
-| Docker      | docker-compose  |  | 
-| Docker      | boot - docker  |  [Spring io: Boot with Docker](https://spring.io/guides/gs/spring-boot-docker/)| 
-| unit Test     |  mockito   |  | 
-| RabbitMQ      |       |  | 
-| Spring Boot | DTO    |  | 
-| Spring Boot | Metrics   | [spring io: metrics](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-metrics.html) | 
+| Subject      | Skills         | repository | Priority | 
+| ------------- |:-------------:|:-------------:|:-------------:| 
+| Docker      | docker-compose  |  |  | 
+| Docker      | boot - docker  |  [Spring io: Boot with Docker](https://spring.io/guides/gs/spring-boot-docker/)|  | 
+| Docker      | jHipster  | [gitHub architecture](https://jhipster.github.io/microservices-architecture/) |  | 
+| unit Test     |  mockito   |  |  | 
+| RabbitMQ      |       |  | high | 
+| Spring Boot | DTO    |  |  | 
+| Spring Boot | Metrics   | [spring io: metrics](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-metrics.html) |  | 
+| Java8      |    debug   | [Youtube : 32 min](https://www.youtube.com/watch?v=nFqstziRrLs)  |  | 
+| Java8      |    debug basic  | [Youtube: 10 min x 7](https://www.youtube.com/watch?v=pYvYSOLPoPE&t=20s)  |  | 
+| Java8      |   Lambda    |[Youtube: 30 min](https://www.youtube.com/watch?v=q5i_O4Uj_O8)  |  | 
 
 
-1) Debug
-```
-High productivity development with Eclipse and Java 8
-```
-[Youtube : 32 min](https://www.youtube.com/watch?v=nFqstziRrLs)
-
-
-```
-Debug basic
-```
-[Youtube: 10 min x 7](https://www.youtube.com/watch?v=pYvYSOLPoPE&t=20s)
 
 1) Unit Test: argument
 ```
@@ -39,23 +32,7 @@ ArgumentCaptor<Person> argument = ArgumentCaptor.forClass(Person.class);
 verify(mock).doSomething(argument.capture());
 assertEquals("John", argument.getValue().getName());
 ```
-
------------
-
-
-2) Lambda
-
-```
-Cave of programming for lambda in Java 8
-```
-[Youtube: 30 min](https://www.youtube.com/watch?v=q5i_O4Uj_O8)
-
-
-3) jHipster
-
-https://jhipster.github.io/microservices-architecture/
-
-4) Angular JS
+2) Angular JS
 
 udemy course for angularJS:  AngularJS JumpStart with Dan Wahlin
 
