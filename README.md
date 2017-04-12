@@ -11,6 +11,13 @@
 
 ### Assignment
 
+| Subject      | Skills         | Priority | 
+| ------------- |:-------------:|:-------------: 
+| Docker      | docker-compose  | | 
+| unit Test     |  mockito   |  | 
+| RabbitMQ      |       |  | 
+| Spring Boot | DTO    |  | 
+| Spring Boot | Metrics   |  | 
 
 
 1) Debug
