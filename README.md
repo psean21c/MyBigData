@@ -18,7 +18,7 @@
 | ------------- |:-------------:|:-------------:|:-------------:| 
 | Docker      | docker-compose  |  |  | 
 | Docker      | boot - docker  |  [Spring io: Boot with Docker](https://spring.io/guides/gs/spring-boot-docker/)|  | 
-| Docker      | jHipster  | [gitHub architecture](https://jhipster.github.io/microservices-architecture/) |  | 
+| Docker      | jHipster  | [gitHub architecture](https://jhipster.github.io/microservices-architecture/) [youtube ](https://www.youtube.com/watch?v=0rdneTj0Z8U)| high | 
 | unit Test     |  mockito   |  |  | 
 | RabbitMQ      |       |  | high | 
 | Spring Boot | DTO    | [Spring io: Data](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.core-concepts) [Spring JPA API](http://docs.spring.io/spring-data/jpa/docs/current/api/)| high | 
