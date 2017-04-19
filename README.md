@@ -21,11 +21,18 @@
 | Docker      | jHipster  | [gitHub architecture](https://jhipster.github.io/microservices-architecture/) [youtube ](https://www.youtube.com/watch?v=0rdneTj0Z8U)| high | 
 | unit Test     |  mockito   |  |  | 
 | RabbitMQ      |       |  | high | 
-| Spring Boot | DTO    | [Spring io: Data](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.core-concepts) [Spring JPA API](http://docs.spring.io/spring-data/jpa/docs/current/api/)| high | 
+| Spring Boot | DTO    | * DTO JHipter Site| high | 
 | Spring Boot | Metrics   | [spring io: metrics](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-metrics.html) |  | 
 | Java8      |    debug   | [Youtube : 32 min](https://www.youtube.com/watch?v=nFqstziRrLs)  |  | 
 | Java8      |    debug basic  | [Youtube: 10 min x 7](https://www.youtube.com/watch?v=pYvYSOLPoPE&t=20s)  |  | 
 | Java8      |   Lambda    |[Youtube: 30 min](https://www.youtube.com/watch?v=q5i_O4Uj_O8)  |  | 
+
+
+[Spring io: Data](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.core-concepts) 
+
+[Spring JPA API](http://docs.spring.io/spring-data/jpa/docs/current/api/)
+
+[* DTO JHipter Site](https://jhipster.github.io/using-dtos/)
 
 
 
