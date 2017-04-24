@@ -3,6 +3,13 @@
 
 [Install mySQL]
 
+April-24: Uninstall and install : Corrupted and failed to restart 
+version: 5.7.18
+```
+root@localhost:wJv7s_&qX,gu
+How to Reset the Root Password in the MySQL reference manual.
+```
+
 [start/stop/restart DB]
 ```
 sudo /usr/local/mysql/support-files/mysql.server start
