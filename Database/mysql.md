@@ -12,6 +12,7 @@ How to Reset the Root Password in the MySQL reference manual.
 
 [start/stop/restart DB]
 ```
+# Auto configured in the panel [System Preferences]
 sudo /usr/local/mysql/support-files/mysql.server start
 sudo /usr/local/mysql/support-files/mysql.server stop
 sudo /usr/local/mysql/support-files/mysql.server restart
@@ -37,9 +38,14 @@ $ mysqld --skip-grant-tables
 Execute these statements.
 ```
 $ mysql -u root mysql
-$mysql> UPDATE user SET Password=PASSWORD(‘math****’) where USER='root';
+$mysql> UPDATE user SET Password=PASSWORD('math****') where USER='root';
+$mysql> UPDATE user SET authentication_string=PASSWORD("math****") WHERE User='root';
+
 $mysql> FLUSH PRIVILEGES;
 ```
+
+**mysql> SET PASSWORD = PASSWORD('your_new_password'); // version 5.7
+
 
 [Create DB and User]
 ```
