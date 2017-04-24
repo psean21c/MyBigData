@@ -64,3 +64,6 @@ Preferences > Database > 3 Party JDBC Drivers
 
 ### Reference
 [MySQL official](https://dev.mysql.com/doc/mysql-getting-started/en/)
+
+[Install on Mac](https://dev.mysql.com/doc/refman/5.7/en/osx-installation-pkg.html)
+
