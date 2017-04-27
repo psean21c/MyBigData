@@ -20,7 +20,7 @@
 | ------------- |:-------------:|:-------------:|:-------------:| 
 | Docker      | docker-compose  |  |  | 
 | Docker      | boot - docker  |  [Spring io: Boot with Docker](https://spring.io/guides/gs/spring-boot-docker/)|  | 
-| Docker      | jHipster  | [gitHub architecture](https://jhipster.github.io/microservices-architecture/) [youtube ](https://www.youtube.com/watch?v=0rdneTj0Z8U)| high | 
+| Docker      | jHipster  | *(1) *(2)  | high | 
 | unit Test     |  mockito   |  |  | 
 | RabbitMQ      |       |  | high | 
 | Spring Boot | DTO    | * DTO JHipter Site| high | 
@@ -29,6 +29,12 @@
 | Java8      |    debug basic  | [Youtube: 10 min x 7](https://www.youtube.com/watch?v=pYvYSOLPoPE&t=20s)  |  | 
 | Java8      |   Lambda    |[Youtube: 30 min](https://www.youtube.com/watch?v=q5i_O4Uj_O8)  |  | 
 
+
+*(1) [gitHub architecture](https://jhipster.github.io/microservices-architecture/) 
+
+*(2) [Youtube JHipster](https://www.youtube.com/watch?v=0rdneTj0Z8U)
+
+*(3) OAuth
 
 [Spring io: Data](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.core-concepts) 
 
