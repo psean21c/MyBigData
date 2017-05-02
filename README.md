@@ -8,7 +8,6 @@
 [GitHub source for eureka spring cloud](https://github.com/spring-cloud-samples/eureka)
 
 
-### TAX, TAX..
 
 ### Docker Docker..
 
@@ -31,6 +30,8 @@
 
 
 *(1) [gitHub architecture](https://jhipster.github.io/microservices-architecture/) 
+
+[git + BitBucket](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
 
 *(2) [Youtube JHipster](https://www.youtube.com/watch?v=0rdneTj0Z8U)
 
