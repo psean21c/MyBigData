@@ -15,3 +15,10 @@ Steps
 [Installation with docker](https://jhipster.github.io/installation/)
 
 [JHipster Demo in Youtube](https://www.youtube.com/watch?v=NdcnpD-GpZ4)
+
+
+### JWT
+
+[JWT GitHub](https://github.com/jwtk/jjwt)
+[JWT IO](https://jwt.io/)
+
