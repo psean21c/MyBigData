@@ -22,6 +22,17 @@ http://localhost:10700/swagger-ui.html
 | Repository      | Repository      | 
 | DB | POJO + POJODTO + Mapper / MapperImpl     | 
 
+```
+com.ccc.domain                                // User.java
+com.ccc.repository                           // UserRepository.java
+com.ccc.service                                // UserService.java
+com.ccc.service.impl                        // UserServiceImpl.java
+com.ccc.service.dto                         // UserDTO.java
+com.ccc.service.mapper                  // UserMapper.java
+com.ccc.service.mapper.impl          // UserMapperImpl.java
+com.ccc.web.rest                              // UserResource.java
+```
+
 
 select * from phx_document_metadata_document
 where applicant_id = '168' and application_id = '42'
