@@ -9,6 +9,20 @@ Steps
 
 ```
 
+Order to Run
+```
+1) run JHipster to build template
+$yo jhipster
+2) run the application
+$./gradlew
+
+3) import to Eclipse
+4) update application-dev.yml
+
+```
+
+
+
 ### Official JHipster site for tutorial
 [Create an app](https://jhipster.github.io/creating-an-app/)
 
