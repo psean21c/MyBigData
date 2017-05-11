@@ -48,7 +48,7 @@ eureka:
 ```
 
 SQL to create table
-```
+```mysql
 # MS(MicroSoft) SQL
 CREATE TABLE phx_users
 (Id bigint identity NOT NULL,
@@ -65,5 +65,8 @@ first_name varchar(255) NOT NULL,
 last_name varchar(255) NOT NULL,
 PRIMARY KEY (id)
 );
+
+# Insert sample data
+insert into phx_users(email,first_name,last_name) values('abc@gmail.com','simon','park')
 
 ```
