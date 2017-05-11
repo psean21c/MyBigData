@@ -49,10 +49,21 @@ eureka:
 
 SQL to create table
 ```
+# MS(MicroSoft) SQL
 CREATE TABLE phx_users
 (Id bigint identity NOT NULL,
 email varchar(255) NOT NULL,
 first_name varchar(255) NOT NULL,
 last_name varchar(255) NOT NULL
 )
+
+# MySQL
+CREATE TABLE phx_users
+(Id bigint AUTO_INCREMENT NOT NULL,
+email varchar(255) NOT NULL,
+first_name varchar(255) NOT NULL,
+last_name varchar(255) NOT NULL,
+PRIMARY KEY (id)
+);
+
 ```
