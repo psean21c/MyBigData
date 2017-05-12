@@ -24,12 +24,15 @@ http://localhost:10700/swagger-ui.html
 
 ```
 
-| Layer       | Files         | 
-| ------------- |:-------------:| 
-| Resource      | Resource  | 
-|Service     |  Service / ServiceImpl    | 
-| Repository      | Repository      | 
-| DB | POJO + POJODTO + Mapper / MapperImpl     | 
+| Layer       | Files         | Examples|
+| ------------- |:-------------:| :-------------:| 
+| Data | POJO  |User.java | 
+| DTO | DTO    |UserDTO.java | 
+| Resource      | Resource  |  UserResource.java|
+|Service     |  Service / ServiceImpl    | UserService.java / UserServiceImpl.java| 
+| Repository      | Repository      | UserRepository.java |
+| Mapper | Mapper / MapperImpl     |UserMapper.java /UserMapperImpl.java | 
+
 
 ```
 com.ccc.domain                                // User.java
