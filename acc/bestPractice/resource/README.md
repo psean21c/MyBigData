@@ -1,13 +1,22 @@
 
 #
 
-```
-1) Verify the table already existing in DB
- table : phx_user
- 
-2) Implement source code
+### Steps to create micro-service using JHipster
 
-3) Run the instruction in bitBucket
+```
+1) Ensure that Dev. enviornment is ready
+ - Need to install JDK8 / gradle / JHipster / DB
+ - DB table for this practice : phx_user
+ 
+2) Run jhipster
+$yo jhipster
+$./gradlew
+
+3) Add a  
+- Import project into your editor 
+- Implement source code
+
+4) Run the instruction in bitBucket
 $./gradlew bootRun
 
 4) swagger-ui
