@@ -72,6 +72,7 @@ udemy course for angularJS:  AngularJS JumpStart with Dan Wahlin
 ```
 Jasypt
 https://github.com/ulisesbocchio/jasypt-spring-boot
+http://www.jasypt.org/
 
 FingerPrint JS
 https://github.com/Valve/fingerprintjs2
