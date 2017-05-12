@@ -69,7 +69,7 @@ eureka:
         registerWithEureka: true
         fetchRegistry: true
         serviceUrl:
-            defaultZone: http://admin:admin@localhost:8761/eureka/  # Update password with admin for test purpose
+            defaultZone: http://admin:admin@localhost:8761/eureka/  # Update defaultZone accordingly
 
 # in order to connect DB
 spring:
@@ -81,8 +81,8 @@ spring:
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:sqlserver://devsql001.autocapitalcanada.local:1433;databaseName=cccdev03;
         name:
-        username: cccapp
-        password: cccapp
+        username: xxxxxx
+        password: xxxxxx
         hikari:
             data-source-properties:
                 cachePrepStmts: true
