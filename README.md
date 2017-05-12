@@ -67,3 +67,12 @@ udemy course for angularJS:  AngularJS JumpStart with Dan Wahlin
 3) Liquibase
 [Liquibase](https://www.youtube.com/watch?v=7VeODrRkHXg)
 
+
+4) Reference for HTTP URL security (Jason's curiosity)
+```
+Jasypt
+https://github.com/ulisesbocchio/jasypt-spring-boot
+
+FingerPrint JS
+https://github.com/Valve/fingerprintjs2
+```
