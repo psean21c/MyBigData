@@ -5,8 +5,8 @@
 
 ```
 1) Ensure that Dev. enviornment is ready
- - Need to install JDK8 / gradle / JHipster / DB
- - DB table for this practice : phx_user
+ - Need to install JDK8 / gradle / JHipster / DB (MySQL or MS-SQL)
+ - DB table for this practice : phx_user (* SQL to create table)
  
 2) Run jhipster
 $yo jhipster
@@ -14,18 +14,18 @@ $./gradlew
 
 3) Add a template / Update configuration
 - Import project into your editor 
-- Implement source code
-- Configure application-dev.yml
+- Implement source code (* Layout for the file)
+- Configure application-dev.yml (* How to configure yml file)
   : eureka endpoiint
   : DB connection
 
-4) 
+4) Add extra jar file to gradle / maven (* Add jar to gradle)
 
 5) Run the instruction in bitBucket
 $./gradlew bootRun
 
 6) swagger-ui
-http://localhost:10700/swagger-ui.html
+ - i.e. http://localhost:10700/swagger-ui.html
 
 ```
 
@@ -39,19 +39,6 @@ http://localhost:10700/swagger-ui.html
 |Service     |  UserService.java / UserServiceImpl.java    |com.ccc.service | 
 | Mapper | UserMapper.java /UserMapperImpl.java     | com.ccc.service | 
 | Resource      |  UserResource.java  | com.ccc.web.rest|
-
-
-* Trouble shoot 
-```
-Caused by: org.springframework.web.client.ResourceAccessException: 
-I/O error on GET request for "http://localhost:8761/config/gateway/dev/master": Connection refused (Connection refused);
-nested exception is java.net.ConnectException: Connection refused (Connection refused)
-
-=> Either you need to check 
-(1) if the JHipster registry server is up (http://{IP}:8761/)
-or (2) JHipster URL was properly configured in yml file
-```
-
 
 
 * How to configure yml file 
@@ -101,7 +88,25 @@ spring:
             hibernate.generate_statistics: true            
 ```
 
-SQL to create table
+* Add jar to gradle
+```gradle
+# build.gradle
+    compile 'io.springfox:springfox-swagger2:2.6.1'
+    compile 'io.springfox:springfox-swagger-ui:2.6.0'
+```
+
+* Trouble shoot 
+```
+Caused by: org.springframework.web.client.ResourceAccessException: 
+I/O error on GET request for "http://localhost:8761/config/gateway/dev/master": Connection refused (Connection refused);
+nested exception is java.net.ConnectException: Connection refused (Connection refused)
+
+=> Either you need to check 
+(1) if the JHipster registry server is up (http://{IP}:8761/)
+or (2) JHipster URL was properly configured in yml file
+```
+
+* SQL to create table
 ```mysql
 # MS(MicroSoft) SQL
 CREATE TABLE phx_users
