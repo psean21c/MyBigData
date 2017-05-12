@@ -12,14 +12,19 @@
 $yo jhipster
 $./gradlew
 
-3) Add a  
+3) Add a template / Update configuration
 - Import project into your editor 
 - Implement source code
+- Configure application-dev.yml
+  : eureka endpoiint
+  : DB connection
 
-4) Run the instruction in bitBucket
+4) 
+
+5) Run the instruction in bitBucket
 $./gradlew bootRun
 
-4) swagger-ui
+6) swagger-ui
 http://localhost:10700/swagger-ui.html
 
 ```
@@ -44,7 +49,6 @@ com.ccc.service.mapper                  // UserMapper.java
 com.ccc.service.mapper.impl          // UserMapperImpl.java
 com.ccc.web.rest                              // UserResource.java
 ```
-
 
 select * from phx_document_metadata_document
 where applicant_id = '168' and application_id = '42'
