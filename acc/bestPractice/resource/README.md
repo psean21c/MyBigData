@@ -29,38 +29,73 @@ http://localhost:10700/swagger-ui.html
 
 ```
 
+* Layout for the file 
 | Layer       | Files         | Examples|
 | ------------- |:-------------:| :-------------:| 
-| Data | POJO  |User.java | 
-| DTO | DTO    |UserDTO.java | 
-| Resource      | Resource  |  UserResource.java|
-|Service     |  Service / ServiceImpl    | UserService.java / UserServiceImpl.java| 
-| Repository      | Repository      | UserRepository.java |
-| Mapper | Mapper / MapperImpl     |UserMapper.java /UserMapperImpl.java | 
+| Data (POJO) | User.java  | com.ccc.domain | 
+| DTO | UserDTO.java    | DTO| 
+|Service     |  UserService.java / UserServiceImpl.java    |com.ccc.service | 
+| Repository      | UserRepository.java     | com.ccc.repository |
+| Mapper | UserMapper.java /UserMapperImpl.java     | | 
+| Resource      |  UserResource.java  | com.ccc.web.rest|
 
 
+* Trouble shoot 
 ```
-com.ccc.domain                                // User.java
-com.ccc.repository                           // UserRepository.java
-com.ccc.service                                // UserService.java
-com.ccc.service.impl                        // UserServiceImpl.java
-com.ccc.service.dto                         // UserDTO.java
-com.ccc.service.mapper                  // UserMapper.java
-com.ccc.service.mapper.impl          // UserMapperImpl.java
-com.ccc.web.rest                              // UserResource.java
+Caused by: org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/config/gateway/dev/master": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+
+=> Either you need to check 
+(1) if the JHipster registry server is up (http://{IP}:8761/)
+or (2) JHipster URL was properly configured in yml file
 ```
 
-select * from phx_document_metadata_document
-where applicant_id = '168' and application_id = '42'
 
-* How to register service in JHipster ??
-```
-#aplication.yml file : must be .. enabled == true
+
+* How to configure yml file 
+```yml
+#aplication-dev.yml file 
+
+# in order to register a service JHipster Registry
 eureka:
     instance:
         prefer-ip-address: true
     client:
-        enabled: true
+        enabled: true               # must be .. enabled == true
+        healthcheck:
+            enabled: true
+        registerWithEureka: true
+        fetchRegistry: true
+        serviceUrl:
+            defaultZone: http://admin:admin@localhost:8761/eureka/  # Update password with admin for test purpose
+
+# in order to connect DB
+spring:
+    profiles:
+        active: dev
+        include: swagger
+    ... # omitted
+    datasource:
+        type: com.zaxxer.hikari.HikariDataSource
+        url: jdbc:sqlserver://devsql001.autocapitalcanada.local:1433;databaseName=cccdev03;
+        name:
+        username: cccapp
+        password: cccapp
+        hikari:
+            data-source-properties:
+                cachePrepStmts: true
+                prepStmtCacheSize: 250
+                prepStmtCacheSqlLimit: 2048
+                useServerPrepStmts: true
+    jpa:
+        database-platform: org.hibernate.dialect.SQLServer2012Dialect
+        database: SQL_SERVER
+        show-sql: true
+        #hibernate:
+        #    ddl-auto: create-drop
+        properties:
+            hibernate.cache.use_second_level_cache: false
+            hibernate.cache.use_query_cache: false
+            hibernate.generate_statistics: true            
 ```
 
 SQL to create table
