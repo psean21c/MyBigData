@@ -30,19 +30,22 @@ http://localhost:10700/swagger-ui.html
 ```
 
 * Layout for the file 
+
 | Layer       | Files         | Examples|
 | ------------- |:-------------:| :-------------:| 
 | Data (POJO) | User.java  | com.ccc.domain | 
-| DTO | UserDTO.java    | DTO| 
-|Service     |  UserService.java / UserServiceImpl.java    |com.ccc.service | 
+| DTO | UserDTO.java    | com.ccc.domain | 
 | Repository      | UserRepository.java     | com.ccc.repository |
-| Mapper | UserMapper.java /UserMapperImpl.java     | | 
+|Service     |  UserService.java / UserServiceImpl.java    |com.ccc.service | 
+| Mapper | UserMapper.java /UserMapperImpl.java     | com.ccc.service | 
 | Resource      |  UserResource.java  | com.ccc.web.rest|
 
 
 * Trouble shoot 
 ```
-Caused by: org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/config/gateway/dev/master": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+Caused by: org.springframework.web.client.ResourceAccessException: 
+I/O error on GET request for "http://localhost:8761/config/gateway/dev/master": Connection refused (Connection refused);
+nested exception is java.net.ConnectException: Connection refused (Connection refused)
 
 => Either you need to check 
 (1) if the JHipster registry server is up (http://{IP}:8761/)
