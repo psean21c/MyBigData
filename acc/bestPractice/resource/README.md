@@ -128,4 +128,18 @@ PRIMARY KEY (id)
 # Insert sample data
 insert into phx_users(email,first_name,last_name) values('abc@gmail.com','simon','park')
 
+
+# Liquibase DB
+DROP TABLE DATABASECHANGELOG
+/
+
+DROP TABLE DATABASECHANGELOGLOCK
+/
+
+DROP TABLE jhi_persistent_audit_event
+/
+
+DROP TABLE jhi_persistent_audit_evt_data
+/
+
 ```
