@@ -45,7 +45,7 @@ $./gradlew bootRun
 ```yml
 #aplication-dev.yml file 
 
-# in order to register a service JHipster Registry
+# 1) in order to register a service JHipster Registry
 eureka:
     instance:
         prefer-ip-address: true
@@ -58,7 +58,7 @@ eureka:
         serviceUrl:
             defaultZone: http://admin:admin@localhost:8761/eureka/  # Update defaultZone accordingly
 
-# in order to connect DB
+# 2) in order to connect DB
 spring:
     profiles:
         active: dev
