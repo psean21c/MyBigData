@@ -26,6 +26,16 @@ $./gradlew bootRun
 
 6) swagger-ui
  - i.e. http://localhost:10700/swagger-ui.html
+ 
+7) Build for production
+$ ./gradlew -Pprod clean bootRepackage
+
+ or dockerize
+$ ./gradlew bootRepackage -Pprod buildDocker
+
+8) Run the container
+$ docker-compose -f src/main/docker/app.yml up -d
+
 
 ```
 
