@@ -21,4 +21,4 @@ https://www.rabbitmq.com/tutorials/tutorial-three-java.html
 
 https://coderwall.com/p/uqp34w/install-rabbitmq-via-docker-in-os-x
 
-
+http://docs.spring.io/spring-amqp/reference/htmlsingle/
