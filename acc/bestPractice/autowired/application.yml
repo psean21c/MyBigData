@@ -1,0 +1,13 @@
+app:
+  documan:  
+    rabbitmq:
+      connection:
+        username: user
+        password: user
+        hostname: localhost
+      queues:
+        documan: hello.world.queue
+      exchanges: 
+        intercom: intercom
+      routingKeys:
+        documanRequiredFiles: documan.required.files

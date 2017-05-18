@@ -1,0 +1,37 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.2.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'eclipse'
+
+jar {
+    baseName = 'gs-messaging-rabbitmq'
+    version =  '0.1.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot:1.5.2.RELEASE'
+    compile 'org.springframework.boot:spring-boot-autoconfigure:1.5.2.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-logging:1.5.2.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter:1.5.2.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-test:1.5.2.RELEASE'
+    compile 'org.springframework.amqp:spring-rabbit:1.7.0.RELEASE'
+    compile 'org.springframework.amqp:spring-amqp:1.7.0.RELEASE'
+    
+	compile 'javax.inject:javax.inject:1'
+    compile 'com.rabbitmq:amqp-client:4.0.2'
+}
