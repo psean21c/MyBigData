@@ -2,7 +2,7 @@
 
 ```xml
 Assignment for Spring Boot
-1) Set annotation for Scheduler:  to be up & run every 5 second => print
+1) Set annotation for Scheduler:  to be up and run every 5 second => print
 2) Autowired / Inject to create Inovatec
 3) To print value in the yaml file after reading it (Using @Value annotation)
  i.e.	@Value("${app.documan.rabbitmq.queues.documan}")
@@ -18,6 +18,8 @@ called:consumer: hello.world.queue
 2017-05-18 15:49:43.928  INFO 50015 --- [           main] com.ccc.Application: Started Application in 11.209 seconds (JVM running for 11.524)
 called:consumer: hello.world.queue
 called:consumer: hello.world.queue
+ ..
+ 
 ```
 
 ### Prototypes
