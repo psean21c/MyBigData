@@ -18,7 +18,8 @@ Ensure that Dev. enviornment is ready
 
 2) Run jhipster
 $yo jhipster
- >> choose microservice and default for all others >> continue
+ >> choose (microservice / 8081 / gradle) and then default for all others 
+ >> continue
 $./gradlew
 
 3) Add a template / Update configuration
@@ -28,14 +29,14 @@ $./gradlew
   : eureka endpoiint
   : DB connection
 
-4) Add extra jar file to gradle / maven (* Add jar to gradle)
+4) Add extra jar file to gradle / maven (* Add jar to gradle) for swaggerUI
 
 5) Run the instruction in bitBucket
 $./gradlew bootRun
 
 6) swagger-ui
- - i.e. http://localhost:10700/swagger-ui.html
- 
+ - i.e. http://localhost:8081/swagger-ui.html
+ * If you receive 403 (Access Denied) => comment out the MicroserviceSecurityConfiguration.java
 7) Build for production
 $ ./gradlew -Pprod clean bootRepackage
 
