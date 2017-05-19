@@ -9,6 +9,20 @@ Assignment for Spring Boot
 
 ```
 
+### File Structure
+```
+{project}
+ |- build.gradle
+ |-src/maim/java/com/ccc
+         |- Application.java
+         |- Inovatec.java
+ |-src/maim/java/com/ccc/rabbitmq
+         |- DocumanConsumer.java
+ |-src/maim/resources
+         |- application-dev.yml
+         |- application.yml
+```
+
 ### Expected result
 
 ```txt
