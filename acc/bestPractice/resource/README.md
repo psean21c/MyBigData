@@ -1,15 +1,24 @@
 
 #
 
+### Prerequiste
+
+```
+Ensure that Dev. enviornment is ready
+ - Need to install JDK8 / gradle / JHipster / DB (MySQL or MS-SQL)
+ - DB table for this practice : phx_user (* SQL to create table)
+ - Docker / JHipster
+ - JHipster registry needs to be up and running
+```
+ 
 ### Steps to create micro-service using JHipster
 
 ```
-1) Ensure that Dev. enviornment is ready
- - Need to install JDK8 / gradle / JHipster / DB (MySQL or MS-SQL)
- - DB table for this practice : phx_user (* SQL to create table)
- 
+1) Create name of folder and place your cursor there.
+
 2) Run jhipster
 $yo jhipster
+ >> choose microservice and default for all others >> continue
 $./gradlew
 
 3) Add a template / Update configuration
