@@ -86,6 +86,7 @@ spring:
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:sqlserver://devsql001.autocapitalcanada.local:1433;databaseName=cccdev03;
+        # url: jdbc:mysql://localhost:3306/accDB # MySQL
         name:
         username: xxxxxx
         password: xxxxxx
