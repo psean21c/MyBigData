@@ -10,7 +10,7 @@ Assignment for Spring Boot
 ```
 
 ### File Structure
-```
+```java
 {project}
  |- build.gradle
  |-src/maim/java/com/ccc
