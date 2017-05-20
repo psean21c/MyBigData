@@ -133,6 +133,13 @@ or (2) JHipster URL was properly configured in yml file
 HikariPool-1 - Exception during pool initialization.
 java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
 => DB password in yml file
+
+
+            
+service2-app_1       | Caused by: org.springframework.web.client.ResourceAccessException: 
+I/O error on GET request for "http://jhipster-registry:8761/config/service2/prod/master": jhipster-registry; 
+nested exception is java.net.UnknownHostException: jhipster-registry
+
 ```
 
 * SQL to create table
