@@ -125,6 +125,14 @@ nested exception is java.net.ConnectException: Connection refused (Connection re
 => Either you need to check 
 (1) if the JHipster registry server is up (http://{IP}:8761/)
 or (2) JHipster URL was properly configured in yml file
+
+
+** error after run : ./gradlew
+
+2017-05-20 14:57:55.553 ERROR 32616 --- [ce-2-Executor-1] com.zaxxer.hikari.pool.HikariPool        : 
+HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+=> DB password in yml file
 ```
 
 * SQL to create table
