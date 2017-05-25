@@ -63,7 +63,15 @@ $ java -jar serve-jdbc-mysql-0.0.1-SNAPSHOT.jar
 ### Remote Debug
 ```
 1) run
+// Move file to the server
+$ scp abc.txt spark@prodcccapp01.autocapitalcanada.local:/home/spark/
+
+// syntax
+$ java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=y -jar abc.jar
+
 $ java -jar -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=y build/libs/serve-jdbc-mysql-0.0.1-SNAPSHOT.jar
+
+* refer to 72.6 Set the active Spring profiles in the [SpringBoot]
 
 2) Attach source file in Eclipse
  - Right click on the project
@@ -76,3 +84,9 @@ $ java -jar -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=
  
  
 ```
+
+[SpringBoot](http://docs.spring.io/autorepo/docs/spring-boot/current/reference/htmlsingle/#howto-set-active-spring-profiles)
+
+
+[Reference](http://javapapers.com/core-java/java-remote-debug-with-eclipse/)
+
