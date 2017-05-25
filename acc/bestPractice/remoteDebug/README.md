@@ -81,12 +81,21 @@ $ java -jar -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=
  - Apply > Debug
  
 3) You should be able to debug / trace source code..
+ -> If you are NOT able to debug it for the reasons [Java Remote Debug] Please check below.
  
- 
+```
+
+```
+Eclipse says, “Failed to connect to remote VM. Connection refused”. In this kind of issue,
+1) first check if the stove is switched on (check if the remote Java application is running),
+2) any firewall blocking access to the host running the remote application,
+3) cross check the JVM options that needs to be supplied when remote application is started
+
+>> systemctl {disable|stop|start} firewalld
 ```
 
 [SpringBoot](http://docs.spring.io/autorepo/docs/spring-boot/current/reference/htmlsingle/#howto-set-active-spring-profiles)
 
 
-[Reference](http://javapapers.com/core-java/java-remote-debug-with-eclipse/)
+[Java Remote Debug](http://javapapers.com/core-java/java-remote-debug-with-eclipse/)
 
