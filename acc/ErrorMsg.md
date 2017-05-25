@@ -26,7 +26,12 @@ $sudo nsenter-t 3543
 
 
 # Run the micro services
+* 
 ```
+2017-05-25 17:40:48.931 ERROR 6 --- [  XNIO-2 task-7] io.undertow.request                      : UT005023: Exception handling request to /api/v1/docusign/fin
+ 
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.AbstractMethodError: 
 
+Caused by: java.lang.AbstractMethodError: javax.ws.rs.core.Response$ResponseBuilder.allow(Ljava/util/Set;)Ljavax/ws/rs/core/Response$ResponseBuilder;
 
 ```
