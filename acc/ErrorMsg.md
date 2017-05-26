@@ -37,3 +37,5 @@ Caused by: java.lang.AbstractMethodError: javax.ws.rs.core.Response$ResponseBuil
 // most likely it must be either (1) not properly configured in registry ..or (2)OAuth .. issue..
 
 ```
+
+### Do your best
