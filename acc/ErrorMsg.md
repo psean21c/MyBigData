@@ -37,5 +37,16 @@ Caused by: java.lang.AbstractMethodError: javax.ws.rs.core.Response$ResponseBuil
 // most likely it must be either (1) not properly configured in registry ..or (2)OAuth .. issue..
 
 ```
+### Front End
+
+```
+GET http://prdcibcapp01.autocapitalcanada.local:10000/users/api/account?cacheBuster=1495982868126 401 (Unauthorized)
+angular.js:12011 
+
+=> app.user.constants.js : Hard coded
+.constant('HOMEP', 'http://prdcibcapp01.autocapitalcanada.local:10000/')
+
+```
+=> 
 
 ### Do your best ..123
