@@ -37,6 +37,46 @@ Caused by: java.lang.AbstractMethodError: javax.ws.rs.core.Response$ResponseBuil
 // most likely it must be either (1) not properly configured in registry ..or (2)OAuth .. issue..
 
 ```
+
+```
+# DT
+
+2017-05-29 19:22:18.127 ERROR 6 --- [           main] o.s.boot.SpringApplication               : Error handling failed
+
+org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'delegatingApplicationListener' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: 
+BeanPostProcessor before instantiation of bean failed; 
+nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 
+
+
+2017-05-29 19:22:18.154 ERROR 6 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: 
+Error creating bean with name 'dealerTrackConsumer': Unsatisfied dependency expressed through field 'rabbitTemplate'; 
+nested exception is org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'dealerTrackRabbit' defined in class path resource [com/ccc/config/DealerTrackConfiguration.class]: 
+Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [org.springframework.amqp.rabbit.core.RabbitTemplate]: Factory method 'rabbitTemplate' threw exception; 
+nested exception is org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'retryTemplate' defined in class path resource [com/ccc/config/DealerTrackConfiguration.class]: 
+Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [org.springframework.retry.support.RetryTemplate]: 
+Factory method 'retryTemplate' threw exception; nested exception is java.lang.NullPointerException
+
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'dealerTrackRabbit' defined in class path resource [com/ccc/config/DealerTrackConfiguration.class]: 
+
+Bean instantiation via factory method failed; 
+nested exception is org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [org.springframework.amqp.rabbit.core.RabbitTemplate]: 
+Factory method 'rabbitTemplate' threw exception; 
+nested exception is org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'retryTemplate' defined in class path resource [com/ccc/config/DealerTrackConfiguration.class]: 
+Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [org.springframework.retry.support.RetryTemplate]: Factory method 'retryTemplate' threw exception; nested exception is java.lang.NullPointerException
+
+```
+
 ### Front End
 
 ```
