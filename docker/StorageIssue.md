@@ -19,3 +19,11 @@ https://yuks.me/blog/quick-clear-docker-logs
 https://docs.docker.com/engine/admin/logging/overview/#examples-2
 
 https://serverfault.com/questions/637996/clearing-deleting-docker-logs
+
+3. Troubleshoot
+```
+
+$ sudo cat /etc/docker/daemon.json
+{ "insecure-registries":["dev001.xxxxxx.local:5000"], "log-opts": { "max-size": "2m", "max-file": "5" } }
+
+```
