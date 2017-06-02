@@ -24,6 +24,9 @@ https://yuks.me/blog/quick-clear-docker-logs
 
 3. Troubleshoot
 ```
+# Clear the log first
+$ truncate -s 0 /var/lib/docker/containers/*/*-json.log
+
 
 $ sudo cat /etc/docker/daemon.json
 { "insecure-registries":["dev001.xxxxxx.local:5000"], "log-opts": { "max-size": "2m", "max-file": "5" } }
