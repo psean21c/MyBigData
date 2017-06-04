@@ -24,7 +24,7 @@ https://yuks.me/blog/quick-clear-docker-logs
 
 3. Troubleshoot
 ```
-# Clear the log first
+# Clear the log first (3 times)
 $ truncate -s 0 /var/lib/docker/containers/*/*-json.log
 
 
