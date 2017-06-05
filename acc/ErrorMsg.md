@@ -76,6 +76,19 @@ Bean instantiation via factory method failed; nested exception is org.springfram
 Failed to instantiate [org.springframework.retry.support.RetryTemplate]: Factory method 'retryTemplate' threw exception; nested exception is java.lang.NullPointerException
 
 ```
+### Gradle Build error
+
+```
+15:29:29.560 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonOutputConsumer] daemon out: ERROR: transport error 202: bind failed: Address already in use
+15:29:29.561 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonOutputConsumer] daemon out: ERROR: JDWP Transport dt_socket failed to initialize, TRANSPORT_INIT(510)
+15:29:29.561 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonOutputConsumer] daemon out: JDWP exit error AGENT_ERROR_TRANSPORT_INIT(197): No transports initialized [debugInit.c:750]
+
+
+cibc-gateway$ grep -r ./ -e '-Xdebug'
+.//gradle.properties:org.gradle.jvmargs=-Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=4000,suspend=n
+
+```
+
 
 ### Front End
 
