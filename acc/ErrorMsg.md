@@ -98,6 +98,20 @@ cibc-gateway$ grep -r ./ -e '-Xdebug'
 
 ```
 
+```
+rg.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration': Unsatisfied dependency expressed through field 'tokenStore'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tokenStore' defined in class path resource [com/ccc/config/MicroserviceSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.provider.token.TokenStore]: Factory method 'tokenStore' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtAccessTokenConverter' defined in class path resource [com/ccc/config/MicroserviceSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter]: Factory method 'jwtAccessTokenConverter' threw exception; nested exception is java.lang.IllegalStateException: No instances available for users
+
+
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.provider.token.TokenStore]: Factory method 'tokenStore' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtAccessTokenConverter' defined in class path resource [com/ccc/config/MicroserviceSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter]: Factory method 'jwtAccessTokenConverter' threw exception; nested exception is java.lang.IllegalStateException: No instances available for users
+        at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+        at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+        ... 34 common frames omitted
+
+
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter]: Factory method 'jwtAccessTokenConverter' threw exception; nested exception is java.lang.IllegalStateException: No instances available for users
+
+
+```
 
 ### Front End
 
