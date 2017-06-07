@@ -79,9 +79,18 @@ Failed to instantiate [org.springframework.retry.support.RetryTemplate]: Factory
 ### Gradle Build error
 
 ```
+// Having this error
+$gradle clean
+-----------------------
+ERROR: transport error 202: bind failed: Address already in use
+ERROR: JDWP Transport dt_socket failed to initialize, TRANSPORT_INIT(510)
+JDWP exit error AGENT_ERROR_TRANSPORT_INIT(197): No transports initialized [debugInit.c:750]
+
+-----------------------
 15:29:29.560 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonOutputConsumer] daemon out: ERROR: transport error 202: bind failed: Address already in use
 15:29:29.561 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonOutputConsumer] daemon out: ERROR: JDWP Transport dt_socket failed to initialize, TRANSPORT_INIT(510)
 15:29:29.561 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonOutputConsumer] daemon out: JDWP exit error AGENT_ERROR_TRANSPORT_INIT(197): No transports initialized [debugInit.c:750]
+
 
 
 cibc-gateway$ grep -r ./ -e '-Xdebug'
