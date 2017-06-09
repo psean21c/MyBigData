@@ -110,8 +110,15 @@ Caused by: org.springframework.beans.BeanInstantiationException: Failed to insta
 
 Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter]: Factory method 'jwtAccessTokenConverter' threw exception; nested exception is java.lang.IllegalStateException: No instances available for users
 
+```
+
+### Hibernate..
+```
+Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed
 
 ```
+??
+
 
 ### Front End
 
