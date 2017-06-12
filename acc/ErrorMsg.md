@@ -134,4 +134,21 @@ angular.js:12011
 ```
 => 
 
-### Do your best .. 12345
+### Do your best .. 1234567890
+
+
+```
+dealertrack Quque
+<TPGISReceiptResponse xmlns="http://www.dealertrackcanada.com/TPGISReceiptResponse.xsd">
+  <TPGISReceiptFailure>
+    <DateTimeReceived>2017-06-12T12:56:47-05:00</DateTimeReceived>
+    <DMSReference />
+    <DealerID>c07519</DealerID>
+    <DMSKey>CIB</DMSKey>
+    <Failure>
+      <ErrorMessage>This DMS provider is not activated for dealer with ID c07519</ErrorMessage>
+      <ErrorCode />
+    </Failure>
+  </TPGISReceiptFailure>
+</TPGISReceiptResponse>
+```
