@@ -134,7 +134,7 @@ angular.js:12011
 ```
 => 
 
-### Do your best .. 1234567890
+### Do your best .. 
 
 
 ```
