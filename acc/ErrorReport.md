@@ -76,7 +76,7 @@ Bean instantiation via factory method failed; nested exception is org.springfram
 Failed to instantiate [org.springframework.retry.support.RetryTemplate]: Factory method 'retryTemplate' threw exception; nested exception is java.lang.NullPointerException
 
 ```
-### Gradle Build error
+### Gradle Build error (When importing project into Eclipse or IDEA) (+2)
 
 ```
 // Having this error
