@@ -165,3 +165,7 @@ dealertrack Quque
 ```
 
  1234
+
+picture
+
+https://www.devmynd.com/blog/2013-2-on-programmers-as-ditch-diggers/
