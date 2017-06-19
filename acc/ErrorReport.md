@@ -20,7 +20,7 @@ $sudo usermod -a -G docker spark
 * Get root access in Linux
 ```shell
 $sudo ls /proc/
-$sudo nsenter-t 3543
+$sudo nsenter -t 3543
 
 ```
 
@@ -164,7 +164,6 @@ dealertrack Quque
 </TPGISReceiptResponse>
 ```
 
- 1234567890
 
 picture
 
