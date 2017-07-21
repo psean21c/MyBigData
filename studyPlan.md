@@ -2,6 +2,11 @@
 
 http://www.grad.illinois.edu/gradhandbook/chapter1/admissions-degree#Transcripts
 
+### US Visa
+http://www.workpermit.com/immigration/usa/us-j-1-exchange-visitor-program-visa
+
+
+### Study Plan
 https://choose.illinois.edu/apply/
 
 psean21c@gmail.com/ Sp***9***
