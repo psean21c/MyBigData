@@ -9,6 +9,8 @@ Letter to Computer Science Department..
 
 academic@cs.illinois.edu
 
+http://cs.illinois.edu/admissions/graduate/applications-process-requirements
+English.. 
 
 ### Study Plan
 https://choose.illinois.edu/apply/
