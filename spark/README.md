@@ -10,12 +10,9 @@ July-28 (Fri):
 July-29 (Sat): 
 ```
 
-### Spark + Python
-
-1. Canopy
-2. URL: http://grouplens.org
 
 ### Friends (Lab 10)
+
 
 
 ### Histogram (Lab 8)
@@ -28,3 +25,13 @@ Run : In the capon > Tool > canopy Terminal
 
 $spark-submit ratings-counter.py 
 ```
+
+
+### Spark + Python
+
+0. Spark version
+`/usr/local/Cellar/apache-spark/2.1.1`
+
+1. Canopy
+`$ pyspark`
+2. URL: http://grouplens.org
