@@ -12,8 +12,10 @@ July-29 (Sat):
 
 
 ### Friends (Lab 10)
-
-
+```
+fakefriends.csv
+friends-by-age.py
+```
 
 ### Histogram (Lab 8)
 Code: ratings-counter.py
