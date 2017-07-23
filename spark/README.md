@@ -1,5 +1,14 @@
 
-### July-23 (Sun)
+### Diary
+```
+July-23 (Sun): 9/10
+July-24 (Mon): 
+July-25 (Tue): 
+July-26 (Wed): 
+July-27 (Thu): 
+July-28 (Fri): 
+July-29 (Sat): 
+```
 
 ### Spark + Python
 
