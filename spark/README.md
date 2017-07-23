@@ -6,6 +6,8 @@
 1. Canopy
 2. URL: http://grouplens.org
 
+
+### lab
 Code: ratings-counter.py
 
 3. Run : In the capon > Tool > canopy Terminal
