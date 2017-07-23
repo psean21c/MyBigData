@@ -1,6 +1,7 @@
 
-### Spark + Python
+### July-23 (Sun)
 
+### Spark + Python
 
 1. Canopy
 2. URL: http://grouplens.org
