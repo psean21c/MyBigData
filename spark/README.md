@@ -2,7 +2,7 @@
 ### Diary
 ```
 July-23 (Sun): 9/10
-July-24 (Mon): 
+July-24 (Mon): Interview ..
 July-25 (Tue): 
 July-26 (Wed): 
 July-27 (Thu): 
