@@ -1,10 +1,10 @@
 
 ### Diary
 ```
-July-23 (Sun): 9/10
+July-23 (Sun): Spark(9/10)
 July-24 (Mon): Interview ..
-July-25 (Tue): 11/12, Python (3/9)
-July-26 (Wed): 
+July-25 (Tue): Spark(11/12), Python (3/9)
+July-26 (Wed): Spark(13-16), 
 July-27 (Thu): 
 July-28 (Fri): 
 July-29 (Sat): 
