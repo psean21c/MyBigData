@@ -7,7 +7,7 @@ July-25 (Tue): Spark(11-12), Python (3/9)
 July-26 (Wed): Spark(13-16), Python (4/9) 
 July-27 (Thu): Spark(17-18),Python(5-6/9)
 July-28 (Fri): Spark(Homework 1/2), Python(7/9)
-July-29 (Sat): 
+July-29 (Sat): Spring(Finished/Refund), 
 ```
 
 
