@@ -3,7 +3,7 @@
 ```
 
 July-30 (Sun): 
-July-31 (Mon): 
+July-31 (Mon): Spark(17 / )
 Aug-1 (Tue): 
 Aug-2 (Wed): 
 Aug-3 (Thu): 
