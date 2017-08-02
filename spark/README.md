@@ -6,7 +6,7 @@ July-30 (Sun):
 July-31 (Mon): Spark(17-25 /42)
 Aug-1 (Tue): Scotia @3PM
 Aug-2 (Wed): 
-Aug-3 (Thu): 
+Aug-3 (Thu): Scotia @11 AM (DevOps)
 Aug-4 (Fri): 
 Aug-5 (Sat): 
 
