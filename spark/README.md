@@ -7,8 +7,8 @@ July-31 (Mon): Spark(17-25 /42)
 Aug-1 (Tue): Scotia @3PM
 Aug-2 (Wed): 
 Aug-3 (Thu): Scotia @11 AM (DevOps) / Zafin @1 PM / RBC
-Aug-4 (Fri): 
-Aug-5 (Sat): 
+Aug-4 (Fri): Neil's moving
+Aug-5 (Sat): Relax
 
 
 July-23 (Sun): Spark(9-10)
