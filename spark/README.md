@@ -1,8 +1,8 @@
 
 ### Diary
 ```
-Aug-6 (Sun):
-Aug-7 (Mon):
+Aug-6 (Sun): Relax
+Aug-7 (Mon): Start again
 Aug-8 (Tue):
 Aug-9 (Wed):
 Aug-10 (Thu):
