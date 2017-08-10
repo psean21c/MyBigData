@@ -5,7 +5,7 @@ Aug-6 (Sun): Relax
 Aug-7 (Mon): Start again
 Aug-8 (Tue): - - -
 Aug-9 (Wed): - - -
-Aug-10 (Thu):
+Aug-10 (Thu):  1 / 3
 Aug-11 (Fri):
 Aug-12 (Sat):
 
