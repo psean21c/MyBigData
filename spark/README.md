@@ -1,6 +1,17 @@
 
 ### Diary
 ```
+Aug-13 (Sun): Prepared..
+Aug-14 (Mon): - - -
+Aug-15 (Tue): - - -
+Aug-16 (Wed): - - -
+Aug-17 (Thu):  - - - 
+Aug-18 (Fri): ---
+Aug-19 (Sat): ---
+
+
+
+
 Aug-6 (Sun): Relax
 Aug-7 (Mon): Start again
 Aug-8 (Tue): - - -
