@@ -2,7 +2,7 @@
 ### Diary
 ```
 Aug-13 (Sun): Prepared..
-Aug-14 (Mon): - - -
+Aug-14 (Mon): Gym / Study /
 Aug-15 (Tue): - - -
 Aug-16 (Wed): - - -
 Aug-17 (Thu):  - - - 
