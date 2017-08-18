@@ -5,7 +5,7 @@ Aug-13 (Sun): Prepared..
 Aug-14 (Mon): Gym / Study /
 Aug-15 (Tue): Gym / .. follow up
 Aug-16 (Wed): Service Canada
-Aug-17 (Thu):  - - - 
+Aug-17 (Thu): Downtown
 Aug-18 (Fri): ---
 Aug-19 (Sat): ---
 
