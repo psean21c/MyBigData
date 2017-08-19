@@ -6,8 +6,8 @@ Aug-14 (Mon): Gym / Study /
 Aug-15 (Tue): Gym / .. follow up
 Aug-16 (Wed): Service Canada
 Aug-17 (Thu): Downtown
-Aug-18 (Fri): ---
-Aug-19 (Sat): ---
+Aug-18 (Fri): Phone
+Aug-19 (Sat): Start
 
 Solution for BigData
 https://github.com/TomLous/coursera-scala-spark-big-data/blob/master/src/main/scala/wikipedia/WikipediaRanking.scala
