@@ -1,6 +1,16 @@
 
 ### Diary
 ```
+
+Aug-20 (Sun): Prepared..
+Aug-21 (Mon): ???
+Aug-22 (Tue): ???
+Aug-23 (Wed): ???
+Aug-24 (Thu): ???
+Aug-25 (Fri): ???
+Aug-26 (Sat): ???
+
+
 Aug-13 (Sun): Prepared..
 Aug-14 (Mon): Gym / Study /
 Aug-15 (Tue): Gym / .. follow up
