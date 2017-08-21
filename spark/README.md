@@ -3,7 +3,7 @@
 ```
 
 Aug-20 (Sun): Prepared..
-Aug-21 (Mon): ???
+Aug-21 (Mon): Good News...
 Aug-22 (Tue): ???
 Aug-23 (Wed): ???
 Aug-24 (Thu): ???
