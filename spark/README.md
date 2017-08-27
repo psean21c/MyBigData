@@ -8,7 +8,7 @@ Aug-22 (Tue): email
 Aug-23 (Wed): email
 Aug-24 (Thu): RBC /9 AM
 Aug-25 (Fri): Ready
-Aug-26 (Sat): ???
+Aug-26 (Sat): Meetup for Scala/Spark
 
 
 Aug-13 (Sun): Prepared..
