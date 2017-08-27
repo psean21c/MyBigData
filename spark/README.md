@@ -1,6 +1,15 @@
 
 ### Diary
 ```
+Aug-27 (Sun): 
+Aug-28 (Mon): 
+Aug-29 (Tue): 
+Aug-30 (Wed): 
+Aug-31 (Thu): 
+Sep-1 (Fri): 
+Sep-2 (Sat): 
+Sep-3 (Sat): 
+
 
 Aug-20 (Sun): Prepared..
 Aug-21 (Mon): Good News...
