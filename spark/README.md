@@ -1,7 +1,7 @@
 
 ### Diary
 ```
-Aug-27 (Sun): 
+Aug-27 (Sun): To PEI
 Aug-28 (Mon): 
 Aug-29 (Tue): 
 Aug-30 (Wed): 
