@@ -2,7 +2,7 @@
 ### Diary
 ```
 Aug-27 (Sun): To PEI
-Aug-28 (Mon): 
+Aug-28 (Mon): On the train to Moncton
 Aug-29 (Tue): 
 Aug-30 (Wed): 
 Aug-31 (Thu): 
