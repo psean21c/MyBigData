@@ -3,8 +3,8 @@
 ```
 Aug-27 (Sun): To PEI
 Aug-28 (Mon): On the train to Moncton
-Aug-29 (Tue): 
-Aug-30 (Wed): 
+Aug-29 (Tue): @PEI
+Aug-30 (Wed): @PEI
 Aug-31 (Thu): 
 Sep-1 (Fri): 
 Sep-2 (Sat): 
