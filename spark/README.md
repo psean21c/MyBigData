@@ -8,7 +8,7 @@ Aug-30 (Wed): @PEI
 Aug-31 (Thu): to Nova Scotia
 Sep-1 (Fri): 
 Sep-2 (Sat): 
-Sep-3 (Sat): 
+Sep-3 (Sun): Halifax / Going Home
 
 
 Aug-20 (Sun): Prepared..
