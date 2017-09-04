@@ -1,6 +1,14 @@
 
 ### Diary
 ```
+Sep-4 (Mon): Labour day
+Sep-5 (Tue): 
+Sep-6 (Wed): 
+Sep-7 (Thu): 
+Sep-8 (Fri): 
+Sep-9 (Sat): 
+Sep-10 (Sun): 
+
 Aug-27 (Sun): To PEI
 Aug-28 (Mon): On the train to Moncton
 Aug-29 (Tue): @PEI
