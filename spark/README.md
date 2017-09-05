@@ -2,7 +2,7 @@
 ### Diary
 ```
 Sep-4 (Mon): Labour day
-Sep-5 (Tue): 
+Sep-5 (Tue): New Start ..
 Sep-6 (Wed): 
 Sep-7 (Thu): 
 Sep-8 (Fri): 
