@@ -3,7 +3,7 @@
 ```
 Sep-4 (Mon): Labour day
 Sep-5 (Tue): New Start ..
-Sep-6 (Wed): 
+Sep-6 (Wed): Wrap up ..
 Sep-7 (Thu): 
 Sep-8 (Fri): 
 Sep-9 (Sat): 
