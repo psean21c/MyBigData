@@ -5,7 +5,7 @@ Sep-4 (Mon): Labour day
 Sep-5 (Tue): New Start ..
 Sep-6 (Wed): Wrap up ..
 Sep-7 (Thu): What to do.. 
-Sep-8 (Fri): 
+Sep-8 (Fri): Disney ..
 Sep-9 (Sat): 
 Sep-10 (Sun): 
 
