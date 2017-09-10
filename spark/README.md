@@ -1,6 +1,15 @@
 
 ### Diary
 ```
+Sep-11 (Mon): 
+Sep-12 (Tue): 
+Sep-13 (Wed): 
+Sep-14 (Thu): 
+Sep-15 (Fri): 
+Sep-16 (Sat): 
+Sep-17 (Sun): 
+
+
 Sep-4 (Mon): Labour day
 Sep-5 (Tue): New Start ..
 Sep-6 (Wed): Wrap up ..
