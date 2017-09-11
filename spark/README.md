@@ -1,7 +1,7 @@
 
 ### Diary
 ```
-Sep-11 (Mon): 
+Sep-11 (Mon): New Start ..
 Sep-12 (Tue): 
 Sep-13 (Wed): 
 Sep-14 (Thu): 
