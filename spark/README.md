@@ -3,7 +3,7 @@
 ```
 Sep-11 (Mon): New Start ..
 Sep-12 (Tue): Day-2
-Sep-13 (Wed): 
+Sep-13 (Wed): Day-3
 Sep-14 (Thu): 
 Sep-15 (Fri): 
 Sep-16 (Sat): 
