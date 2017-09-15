@@ -5,7 +5,7 @@ Sep-11 (Mon): New Start ..
 Sep-12 (Tue): Day-2
 Sep-13 (Wed): Day-3
 Sep-14 (Thu): Day-4
-Sep-15 (Fri): 
+Sep-15 (Fri): Day-5
 Sep-16 (Sat): 
 Sep-17 (Sun): 
 
