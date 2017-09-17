@@ -1,13 +1,23 @@
 
 ### Diary
 ```
+Sep-18 (Mon): 
+Sep-19 (Tue):
+Sep-20 (Wed):
+Sep-21 (Thu):
+Sep-22 (Fri):
+Sep-23 (Sat):
+Sep-24 (Sun):
+
+
 Sep-11 (Mon): New Start ..
 Sep-12 (Tue): Day-2
 Sep-13 (Wed): Day-3
 Sep-14 (Thu): Day-4
 Sep-15 (Fri): Day-5
 Sep-16 (Sat): Day-S1
-Sep-17 (Sun): 
+Sep-17 (Sun): Day-S2
+
 
 
 Sep-4 (Mon): Labour day
