@@ -1,13 +1,21 @@
 
 ### Diary
 ```
-Sep-18 (Mon): Another new start
+Sep-25 (Mon): .
+Sep-26 (Tue): ..
+Sep-27 (Wed): ...
+Sep-28 (Thu): ....
+Sep-29 (Fri): .....
+Sep-30 (Sat):
+Oct-01 (Sun): Another new start
+
+Sep-18 (Mon): 
 Sep-19 (Tue): ..
 Sep-20 (Wed): ...
 Sep-21 (Thu): ....
 Sep-22 (Fri): .....
 Sep-23 (Sat):
-Sep-24 (Sun):
+Sep-24 (Sun): ...
 
 
 Sep-11 (Mon): New Start ..
