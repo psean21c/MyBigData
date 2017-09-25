@@ -1,7 +1,7 @@
 
 ### Diary
 ```
-Sep-25 (Mon): .
+Sep-25 (Mon): Primus ..
 Sep-26 (Tue): ..
 Sep-27 (Wed): ...
 Sep-28 (Thu): ....
