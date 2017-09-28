@@ -3,8 +3,8 @@
 ```
 Sep-25 (Mon): Primus ..
 Sep-26 (Tue): ..
-Sep-27 (Wed): New Start..
-Sep-28 (Thu): ....
+Sep-27 (Wed): 
+Sep-28 (Thu): checkEligibility
 Sep-29 (Fri): .....
 Sep-30 (Sat):
 Oct-01 (Sun): Another new start
